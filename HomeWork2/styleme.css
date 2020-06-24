@@ -32,5 +32,8 @@ dd{
 }
 ol { 
     display: flex;
-
+}
+.em{
+    font-weight: bold;
+    color: aqua;
 }

@@ -1,0 +1,116 @@
+body{
+    font-size: 8pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url("images/background.png");
+    background-position-x: center;
+    
+}
+#baner{
+    background-image: url("images/bannerbg.png");
+    height: 50px;
+    
+}
+.banerm{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    height: 50px;
+
+}
+h1{
+    text-align: center;
+    font-size: 24pt;
+    font-family: Tahoma,Verdana,sans-serif;
+    text-shadow: 3px 3px #999999;
+}
+.overviw{
+    float: right;
+    width: 250px;
+    background-color:#A2B964;
+    font-size: 8pt;
+    font-family: Arial,sans-serif;
+    margin: 0%;
+    border-radius: 0px 20px 0px 0px;
+}
+#ovv{
+    border-radius: 0px 20px 0px 0px;
+}
+dl{
+    padding: 10pt;
+    font-weight: bold;
+}
+dd{
+    margin-bottom: 10pt;
+}
+#rmvbltn{
+    list-style-type: none;
+}
+#page{
+    display: flow-root;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    border: 4px Solid grey;
+    border-radius: 20px;
+
+}
+
+.qts{
+    border: 2px Solid grey;
+    border-radius: 10px;
+    padding:8px;
+    font-weight: bold;
+    font-size: 8pt;
+    background-color: #E8DC9B;
+}
+#CriticsReview{
+    width: 550px;
+    column-count: 2;
+    column-gap: 2%;
+    position: relative;
+    top: 1em;
+    
+}
+
+.indivQuote{
+    margin: 6%;
+}
+#rottenbig{
+    background-image: url("images/rbg.png");
+    height: 83px;
+    border-radius: 16px 16px 0px 0px;
+    
+}
+.rottenbigb{
+    height: 83px;
+    border-radius: 16px 16px 0px 0px;
+}
+#rating{
+    font-size: 48pt;
+    color: red;
+    position: relative;
+    top: -0.3em;
+    
+}
+.icons{
+    margin-right: 5px;
+    float: left;
+}
+.publcn{
+   font-style: italic; 
+}
+#barlast{
+    background-color: #A2B964;
+    text-align: center;
+    clear: right;
+    margin-bottom: 0%;
+    border-radius: 0px 0px 20px 20px;
+}
+#validation{
+    text-align-last: right;
+    position: relative;
+    right: 0.1em;
+    bottom: 6em;
+
+}

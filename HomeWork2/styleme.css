@@ -30,9 +30,6 @@ dt{
 dd{
     font-style: italic
 }
-ol { 
-    display: flex;
-}
 .em{
     font-weight: bold;
     color: aqua;

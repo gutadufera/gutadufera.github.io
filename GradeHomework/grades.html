@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Retrieve Grade</title>
+	</head>
+	<body>
+		<form action="http://mumstudents.org/params.php">
+            <div>
+				<h1>Retrieve your grade</h1>
+				<p>
+					Name:<input type="text" name="fullname" size="20" placeholder="Full Name"/>    
+				</p>
+				<p>
+					Student ID:<input type="number" name="id"  size="6" maxlength="6" placeholder="6 digit number" />
+				</p>
+				<p>
+					<fieldset>
+						<legend>Select your entry</legend>
+					<label><input type="radio" name="entry" value="Feb2019" /> Feb 2019</label>
+					<label><input type="radio" name="entry" value="May2019" /> May 2019</label>
+					<label><input type="radio" name="entry" value="Aug2019" /> Aug 2019</label>
+					</fieldset>
+				</p>
+				<p>Choose which assignment you want to see: <br>
+					<select name="Assignment" >
+						<option>Lab0</option>
+						<option>Lab1</option>
+                        <option>Lab2</option>
+                        <option>Homework1</option>
+                        <option>Homework2</option>
+                        <option>Homework3</option>
+                    </select>
+				</p>
+				<p>
+					<input type="checkbox" name="agree" /> Check this box if you agree that you are not lying and not looking up other grades other than yours. 
+				</p>
+                <p><input type="submit" value="Get Grade!"/> </p>
+            </div>
+        </form>
+	</body>
+</html>

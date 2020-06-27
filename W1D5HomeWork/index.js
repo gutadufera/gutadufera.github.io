@@ -27,12 +27,12 @@ function maxOfThree(a, b, c){
     }
 }
 // check: 
-console.log("Expected output of maxOfThree(5, 4, 44) is 44" + myFunctionTest(44, maxOfThree(5, 4, 44)))
+console.log("Expected output of maxOfThree(5, 4, 44) is 44 " + myFunctionTest(44, maxOfThree(5, 4, 44)))
 //Question #3
 function isVowel(chr){
     return chr ==='a' || chr ==='e' || chr==='i' || chr==='o' || chr==='u';     
 }
-//check: console.log(isVowel('a'));
+console.log("Expected output of isVowel('a') is true " + myFunctionTest(true, isVowel('a')));
 //Question 4??
 function sum(){}
 
@@ -41,7 +41,8 @@ function rev(string){
     if(string==="") return "";
     else return rev(string.substr(1))+string.charAt(0);
 }
-//check: console.log(rev("jag testar"));
+//check: 
+console.log("Expected ouput of rev(jag testar) is ratset gaj" +myFunctionTest("ratset gaj", rev("jag testar")));
 //Question 6
 function findLongestWord(arr){
     let longestWord = arr.split('').sort(function(a, b){

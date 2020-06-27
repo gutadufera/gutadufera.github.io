@@ -27,7 +27,7 @@ function maxOfThree(a, b, c){
     }
 }
 // check: 
-console.log(maxOfThree(23, 43, 54))
+console.log("Expected output of maxOfThree(5, 4, 44) is 44" + myFunctionTest(44, maxOfThree(5, 4, 44)))
 //Question #3
 function isVowel(chr){
     return chr ==='a' || chr ==='e' || chr==='i' || chr==='o' || chr==='u';     

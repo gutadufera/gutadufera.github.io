@@ -49,7 +49,7 @@ function multply(numbers){
     return product;
 }
 console.log("expected output of sum([1,2,3,4]) is 10 " + myFunctionTest(10, sum([1, 2, 3, 4])));
-console.log("expected output of sum([1,2,3,4]) is 24 " + myFunctionTest(24, multply([1, 2, 3, 4])))
+console.log("expected output of multiplication of([1,2,3,4]) is 24 " + myFunctionTest(24, multply([1, 2, 3, 4])))
 
 //Question 5
 function rev(string){

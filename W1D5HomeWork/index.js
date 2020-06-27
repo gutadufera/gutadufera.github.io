@@ -97,5 +97,5 @@ let multpBy = arrayNum.map(function(elem, i, array){
  let product = arrayNum.reduce((a, b)=>a*b, 1);
 
  console.log("Expected output of array multiplyBy 10 is [10, 20, 30, 40] " + myFunctionTest(JSON.stringify([10, 20, 30, 40]), JSON.stringify(multpBy)));
- console.log("Expected output of filtering by 3 of [1, 3, 3, 4] is 3 " + myFunctionTest(JSON.stringify(3), JSON.stringify(equalThree)));
+ console.log("Expected output of filtering by 3 of [1, 2, 3, 4] is [3] " + myFunctionTest(JSON.stringify([3]), JSON.stringify(equalThree)));
  console.log("Expected output of product of arrayNum is 24 " + myFunctionTest(24, product))

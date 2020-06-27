@@ -80,19 +80,22 @@ var filterLongWords = function(array, i){
     });
     return newArray;
 }
-console.log("Expected output of filterLongWords([Guta, Fida, is, stuent]) is Guta, Fida, is, student " + 
-myFunctionTest([" Guta", "student "], filterLongWords(["Guta", "is", "student"], 3)));
-console.log(filterLongWords(["Guta", "is", "student"], 3));
+console.log("Expected output of filterLongWords([Guta, is, stuent]) is 'Guta, student' " + 
+myFunctionTest(JSON.stringify(["Guta", "student"]), JSON.stringify(filterLongWords(["Guta", "is", "student"], 3))));
+
 //Question 8
 //a
 let arrayNum = [1, 2, 3, 4];
 let multpBy = arrayNum.map(function(elem, i, array){
     return elem*10;
 })
+//b
  let equalThree = arrayNum.filter(function(elem, i, array){
      return elem === 3;
  })
+ //c
  let product = arrayNum.reduce((a, b)=>a*b, 1);
- console.log("Expected output of " + myFunctionTest([10, 20, 30, 40], multpBy));
- console.log(equalThree);
+
+ console.log("Expected output of array multiplyBy 10 is [10, 20, 30, 40] " + myFunctionTest(JSON.stringify([10, 20, 30, 40]), JSON.stringify(multpBy)));
+ console.log("Expected output of filtering by 3 of [1, 3, 3, 4] is 3 " + myFunctionTest(equalThree));
  console.log("Expected output of product of arrayNum is 24 " + myFunctionTest(24, product))

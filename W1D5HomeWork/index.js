@@ -2,7 +2,7 @@ function myFunctionTest(expected, found){
     if(expected ===found){
         return "TEST SUCCEEDED";
     } else{
-        return "TEST FAILED. Expected" + expected + "found " + found;
+        return "TEST FAILED. Expected " + expected + " found " + found;
     }
 }
 
@@ -59,7 +59,17 @@ function rev(string){
 //check: 
 console.log("Expected ouput of rev(jag testar) is ratset gaj " + myFunctionTest("ratset gaj", rev("jag testar")));
 //Question 6 ??
-
+function findLongestWord(words){
+    let lenLongest = 0;
+    for(let i=0; i<words.length; i++){
+        let len = words[i].length;
+        if(len> lenLongest){
+            lenLongest = len;
+        }
+    }
+    return lenLongest;
+}
+console.log("Expected ouput of findLongestWord(Guta, Dhufera) is 7 " + myFunctionTest(7, findLongestWord(["Guta", "Dhufera"])))
 //Question 7
 var filterLongWords = function(array, i){
     var newArray = [];
@@ -71,5 +81,18 @@ var filterLongWords = function(array, i){
     return newArray;
 }
 console.log("Expected output of filterLongWords([Guta, Fida, is, stuent]) is Guta, Fida, is, student " + 
-myFunctionTest(["Guta", "student"], filterLongWords(["Guta", "is", "student"], 3)));
-console.log(filterLongWords([" Guta", "is", "student "], 3));
+myFunctionTest([" Guta", "student "], filterLongWords(["Guta", "is", "student"], 3)));
+console.log(filterLongWords(["Guta", "is", "student"], 3));
+//Question 8
+//a
+let arrayNum = [1, 2, 3, 4];
+let multpBy = arrayNum.map(function(elem, i, array){
+    return elem*10;
+})
+ let equalThree = arrayNum.filter(function(elem, i, array){
+     return elem === 3;
+ })
+ let product = arrayNum.reduce((a, b)=>a*b, 1);
+ console.log("Expected output of " + myFunctionTest([10, 20, 30, 40], multpBy));
+ console.log(equalThree);
+ console.log("Expected output of product of arrayNum is 24 " + myFunctionTest(24, product))

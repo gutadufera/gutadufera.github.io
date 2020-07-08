@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- <meta name="viewport" content="width=device-width, initial-scale=1">-->
+<link href="circ.css" rel="stylesheet" type="text/css">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>  
+
+<script>
+
+    $(document).ready(function(){
+        $("#start").click(function(){
+            let wdth=parseInt($("#width").val(),10);
+            let gamount=parseInt($("#growthAmount").val(),10);
+            let grate=parseInt($("#growRate").val(),10);
+            let ncircles=parseInt($("#numberCircles").val(),10);
+           
+            for(let i=0;i<ncircles;i++){
+                let d = document.createElement('div');
+                $(d).addClass("dot "+"i"+i).appendTo($(".drawing"))
+                let r = 122+(i+2)*8;
+                let g = 255-i*i;
+                let b = i*(10+i);
+                $(".i"+i).css("background-color","rgb("+r+","+g+","+b+")");
+            }
+            $(".dot").css("width",wdth)
+            $(".dot").css("height",wdth)
+            grow(gamount,grate)
+            $(".dot").click(function(){
+            $(".dot").hide();
+        })
+        }) 
+        
+        
+    })
+    function grow(amount,grate){
+        setInterval(()=>{ $(".dot").css("width","+="+amount)
+        $(".dot").css("height","+="+amount)},grate);
+    }
+</script>
+
+</head>
+<body>
+
+<div class="drawing">
+  <h1>Round Dots / Circles</h1>
+  <!-- <div class = "dot"></div> -->
+  
+</div>
+<div>
+    <div class="draw">
+        <label for = "width">Width<br></label>
+        <input type="number" name="width" id="width" placeholder="50px"/>
+    </div> 
+    <div class="draw cls1">
+        <label for = "growthAmount">Growth Amount<br></label>
+        <input type="number" name="growthAmount" id="growthAmount" placeholder="10px"/>
+    </div>
+      <div class="draw">
+        <label for = "growRate">Grow Rate<br></label>
+        <input type="number" name="growRate" id="growRate" placeholder="250"/>
+    </div> 
+    <div class="draw">
+        <label for = "numberCircles">Number Circles<br></label>
+        <input type="number" name="numberCircles" id="numberCircles" placeholder="1"/>
+    </div>
+    <button id="start">Start</button>
+</div>
+ 
+</body>
+</html> 

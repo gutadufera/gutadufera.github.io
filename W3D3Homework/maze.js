@@ -1,42 +1,49 @@
-var isRunning = false;
-$(document).ready(function() {
-    $('#start').click(function() {
-        $('div.boundary').removeClass('youlose');
-        $('#status').text('Click the "S" to begin.');
-        isRunning = true;
-    });
+(function () {
+    "use strict";
+var win = true;
 
-    $('#end').mouseover(function(e) {
-        if (isRunning) {
-            $('#status').text('You win. =]');
-            isRunning = false;
-        }
-    });
+$('document').ready(function () {
+    $("#start").click(
+        function () {
+            $("#status").text("Good Luck.");
+            $("div .boundary").removeClass("youlose");
+            startGame();
 
-    $('#maze').hover(function(event) {
-        const element = $('div.boundary');
-        if (isRunning) {
-            const startPosition = $('#start').offset();
-            const endPosition = $('#end').offset();
-            var x = event.pageX;
-            if (x < startPosition.left || x > endPosition.left) {
-                markFailure();
-            }
-        }
-    });
-
-    $('div.boundary').mouseover(function() {
-        if (isRunning) {
-            markFailure();
-        }
-    });
+        });
 });
 
-function markFailure() {
-    const element = $('div.boundary');
-    if (isRunning) {
-        element.addClass('youlose');
-        $('#status').text('Sorry, you lost. =[');
-        isRunning = false;
-    }
+function startGame() {
+    win = true;
+
+    $(".boundary").hover(
+        function () {
+            loose();
+        });
+
+    $("#end").click(
+        function () {
+            if (win) {
+                $("#status").text("You WIN! : Click S to Play Again");
+                endGame();
+            }
+        });
+
+    $("#maze").mouseleave(
+        function () {
+            loose();
+        });
+
 }
+
+function loose() {
+    win = false;
+    $("div .boundary").addClass("youlose");
+    $("#status").text("You LOSE! : Click 'S' to Retry ");
+}
+
+function endGame() {
+    $("div .boundary").removeClass("youlose");
+    $('.boundary').unbind('hover');
+    $("#maze").unbind('mouseleave');
+}
+})();

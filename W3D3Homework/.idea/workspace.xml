@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="97cf8ac2-6d61-49be-aba0-43a2d369ad7f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../CustomTags/src/main/java/edu/MIU/Label.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CustomTags/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DemoApp/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DemoApp/out/artifacts/DemoApp_war_exploded/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DemoApp/out/artifacts/DemoApp_war_exploded/WEB-INF/classes/edu/MUI/CS472/AddServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DemoApp/out/artifacts/DemoApp_war_exploded/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DemoApp/out/artifacts/DemoApp_war_exploded/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DemoApp/src/main/java/edu/MUI/CS472/AddServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DemoApp/target/classes/edu/MUI/CS472/AddServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DemoApp/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SampleServlet/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SampleServlet/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SampleServlet/SampleServlet.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SampleServlet/src/main/java/edu/miu/cs472/SampleServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SimpleServlet/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SimpleServlet/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SimpleServlet/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SimpleServlet/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SimpleServlet/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SimpleServlet/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SimpleServlet/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SimpleServlet/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SimpleServlet/SimpleServlet.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SimpleServlet/src/main/java/edu/miu/CalculatorTwo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SimpleServlet/src/main/java/edu/miu/SimpleServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SimpleServlet/src/main/java/edu/miu/model/Point.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../W3D5Assignment/W3D5Assignment.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../W3D5Assignment/src/main/java/Console.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../W3D5Assignment/src/main/java/Quiz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../W3D5Assignment/src/main/java/QuizServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../W3D5Assignment/src/main/java/QuizUIServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../W3D5Assignment/src/test/java/QuizTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../W3D5Assignment/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../W3D5Assignment/web/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../W3D6Homework/W3D6Homework.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../W3D6Homework/src/main/java/edu/miu/cs/Console.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../W3D6Homework/src/main/java/edu/miu/cs/Quiz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../W3D6Homework/src/main/java/edu/miu/cs/QuizGameOverServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../W3D6Homework/src/main/java/edu/miu/cs/QuizServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../W3D6Homework/src/main/java/edu/miu/cs/QuizTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../W3D6Homework/src/main/java/edu/miu/cs/QuizUIServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../W3D6Homework/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../W3D6Homework/web/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../W3D6Homework/web/quizGameOver.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../W3D6Homework/web/quizUI.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/test.iml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1eefUysPSd7ENp33x1fPFpgaPOI" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="97cf8ac2-6d61-49be-aba0-43a2d369ad7f" name="Default Changelist" comment="" />
+      <created>1594686998883</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1594686998883</updated>
+      <workItem from="1594687000136" duration="42000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+</project>
